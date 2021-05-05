@@ -1,7 +1,7 @@
 # BPFMon Proof of Concept
 
 This is a proof-of-concept example of using eBPF to Monitor for changes
-to eBPF Maps from user and kernel programs.
+to eBPF Maps from user and kernel programs. This was written to accompany the blog [Mapping It Out: Analyzing the Security of eBPF Maps](https://www.crowdstrike.com/blog/analyzing-the-security-of-ebpf-maps)
 
 This is **not** intended to be used in production, but to instead demonstrate
 the challenge of monitoring for eBPF Map tampering.
@@ -112,4 +112,4 @@ As this is only meant as a small demonstration, there are a number of limitation
 # Other Notes
 The Makefile of this project is heavily based upon the one in [LibBPF Bootstrap](https://github.com/libbpf/libbpf-bootstrap).
 
-This project accompanies the blog [Mapping it out: Analysing the security of eBPF Maps](https://www.crowdstrike.com/blog/tbd).
+For more details, see the related blog [Mapping It Out: Analyzing the Security of eBPF Maps](https://www.crowdstrike.com/blog/analyzing-the-security-of-ebpf-maps).
